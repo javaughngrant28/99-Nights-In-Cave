@@ -1,0 +1,38 @@
+{
+  "name": "99-Nights-Cave",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$className":"Folder",
+        "$path": "src/shared",
+
+        "Libraries": {
+          "$className":"Folder",
+          "$path": "src/Libraries",
+          "$ignoreUnknownInstances": true
+        },
+
+        "$ignoreUnknownInstances": true
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server",
+        "$ignoreUnknownInstances": true
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client",
+          "$ignoreUnknownInstances": true
+        }
+      }
+    }
+
+  }
+}
