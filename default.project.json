@@ -25,6 +25,14 @@
       }
     },
 
+    "StarterGui": {
+      "Interfec":{
+        "$className": "Folder",
+        "$path": "src/interface",
+        "$ignoreUnknownInstances": true
+      }
+    },
+
     "StarterPlayer": {
       "StarterPlayerScripts": {
         "Client": {
