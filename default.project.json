@@ -10,7 +10,7 @@
 
         "Libraries": {
           "$className":"Folder",
-          "$path": "src/Libraries",
+          "$path": "src/Lib",
           "$ignoreUnknownInstances": true
         },
 
@@ -23,6 +23,16 @@
         "$path": "src/server",
         "$ignoreUnknownInstances": true
       }
+    },
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "Libraries":{
+        "$path": "src/libraries",
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true
+      },
+      "$ignoreUnknownInstances": true
     },
 
     "StarterGui": {
