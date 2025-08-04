@@ -32,7 +32,6 @@ end
 function Coin:__Constructor(Model: Model)
     self._MAID = MaidModule.new()
     self.Model = Model
-    print(Model)
 
     self:_TouchConnection()
 end
