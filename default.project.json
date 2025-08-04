@@ -19,14 +19,14 @@
     },
 
     "ServerScriptService": {
-      "Server": {
+      "Services": {
         "$path": "src/server",
         "$ignoreUnknownInstances": true
       }
     },
 
     "StarterGui": {
-      "Interfec":{
+      "Interfece":{
         "$className": "Folder",
         "$path": "src/interface",
         "$ignoreUnknownInstances": true

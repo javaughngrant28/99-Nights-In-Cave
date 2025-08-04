@@ -7,7 +7,7 @@ local DayBoost: NumberValue = DayNightValues.DaySpeedBoost
 local ScreenGui = script.Parent.Parent.Parent.GameUI
 local HUDFrame = ScreenGui.HUD
 local DayLable: TextLabel = HUDFrame:FindFirstChild('Day',true)
-local MultiplierLable: TextLabel = DayLable:FindFirstChild('Multiplier', true)
+local MultiplierLable = DayLable:FindFirstChild('Multiplier', true) :: TextLabel
 
 local function UpdateDayCount()
     DayLable.Text = `Day {DayCount.Value}`
