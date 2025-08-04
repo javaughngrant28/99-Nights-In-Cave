@@ -10,7 +10,7 @@
 
         "Libraries": {
           "$className":"Folder",
-          "$path": "src/Lib",
+          "$path": "src/lib",
           "$ignoreUnknownInstances": true
         },
 
